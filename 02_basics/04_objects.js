@@ -30,3 +30,18 @@ console.log(Object.keys(tinderUser))
 console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
 console.log(tinderUser.hasOwnProperty('ide'))
+
+
+const course={
+    coursename:"jsinhindi",
+    price:"999",
+    instructor:"abrar"
+}
+// course.instructor
+const {instructor:i}=course//Destructuring of the object
+console.log(i)
+
+{
+    [],
+    []//Javascript object notation
+}
