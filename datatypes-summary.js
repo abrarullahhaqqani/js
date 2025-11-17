@@ -27,3 +27,20 @@ const myFunction=function(){
 console.log(typeof heros)
 console.log(typeof myObj)
 console.log(typeof myFunction)
+
+//Stack, heap memory
+//Primitive types are stored in stack memory
+//Reference types are stored in heap memory and reference is stored in stack memory
+let myName="abrar"
+let anotherName=myName
+anotherName="absar"
+console.log(myName)
+console.log(anotherName)
+
+let userOne={
+    name:'abrar',
+    age:20
+}
+let userTwo=userOne
+userTwo.name='absar'
+console.log(userOne.name)
